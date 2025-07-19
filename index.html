@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Modals and Cards</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="text-center mt-4 mb-4">City - Gallery</h1>
+
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="https://lp-cms-production.imgix.net/2025-04/shutterstock1979911553.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Cape Cod</h5>
+                        <p class="card-text">Quaint fishing villages... Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni architecto illum ducimus ipsum ex labore consequatur molestias unde
+                            placeat quis explicabo nulla nemo distinctio libero quo nostrum, vel blanditiis cumque.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="https://lp-cms-production.imgix.net/2022-07/Slovenia_East_Plaza.jpg" class="card-img-top"
+                        alt="solvenia">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Slovenia</h5>
+                        <p class="card-text">An earthly paradise... Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Rerum, quisquam! Asperiores magni voluptate, facere optio corrupti adipisci. Vitae
+                            atque id aspernatur unde, error cum obcaecati, voluptas officia ducimus vero soluta
+                            provident ad. Fuga, suscipit ex quasi consequuntur repellat nihil nesciunt cupiditate,
+                            aliquid odit porro, temporibus veritatis! Praesentium sapiente harum veniam!</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="https://lp-cms-production.imgix.net/2019-06/d5114769d3bfd5b92fc807f0d0a4311f-blarney-castle.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">County Cork</h5>
+                        <p class="card-text">Everything good about Ireland.. Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Eum suscipit quia excepturi iusto rerum odit nulla eius accusantium saepe
+                            voluptate deleniti, odio modi. Vitae rem vero reprehenderit quisquam nemo! Adipisci vero sed
+                            laboriosam cum recusandae? Voluptatem ullam assumenda quod tenetur?</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="https://lp-cms-production.imgix.net/2025-04/shutterstock1979911553.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">England</h5>
+                        <p class="card-text">This green and pleasant land... Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Magni facilis cupiditate laborum similique quasi, deserunt non in tempora
+                            aut velit.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="https://lp-cms-production.imgix.net/2023-02/shutterstockRF_1288809448.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Tokyo</h5>
+                        <p class="card-text">Yoking past and future... Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Enim fugit reiciendis obcaecati, exercitationem recusandae necessitatibus
+                            eos, ea possimus laborum dolores suscipit porro. Soluta accusantium fugit earum, totam
+                            magnam nobis voluptate veritatis error a mollitia laborum voluptatibus, saepe vero aliquam.
+                            Qui.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Launch demo modal
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">More info</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel omnis fugiat nisi tempora, ipsam
+                        magnam quo autem vitae inventore aperiam ipsa ducimus sunt eius illo in voluptatem dolore
+                        placeat error?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
